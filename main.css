@@ -1,0 +1,32 @@
+body {
+    font-family: monospace;
+}
+
+ul {
+    font-family: helvetica;
+}
+
+/* simple selector matches tag name exactly */
+li {
+    list-style: square;
+}
+
+/* . is class selector */
+.list {
+    list-style: square;
+}
+
+/* # is id selector */
+#msg {
+    font-family: monospace;
+}
+
+.light-theme {
+    color: #000000;
+    background: #00FF00;
+}
+
+.dark-theme {
+    color:#ff00bf;
+    background:#000000
+}
