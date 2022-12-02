@@ -1,4 +1,23 @@
 body {
+  font-family: monospace;
+}
+
+ul {
+  font-family: helvetica;
+}
+
+li {
+  list-style: circle;
+}
+
+.list {
+  list-style: square;
+}
+
+#msg {
+  font-family: monospace;
+}
+body {
     font-family: monospace;
 }
 
@@ -26,6 +45,10 @@ li {
     background: #00FF00;
 }
 
+.light-theme {
+  color: #000000;
+  background: #00FF00;
+}
 .dark-theme {
     color:#ff00bf;
     background:#000000
